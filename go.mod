@@ -1,4 +1,4 @@
-module github.com/89z/googleplay
+module googleplay
 
 go 1.18
 
@@ -11,3 +11,4 @@ require (
 	golang.org/x/crypto v0.3.0 // indirect
 	golang.org/x/sys v0.2.0 // indirect
 )
+replace github.com/89z/rosso => /home/go/google_aas_et_generate/github.com/89z/rosso@v1.50.2
